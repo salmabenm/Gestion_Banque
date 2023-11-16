@@ -42,6 +42,12 @@ if(isset($_POST['submit'])){
 
 }
 
+// Votre code PHP ici
+
+// Redirection vers une page spécifique
+header("https://salmabenm.github.io/Gestion_Banque");
+exit; // Assurez-vous d'appeler exit après la redirection pour éviter tout traitement supplémentaire
+
 ?>
 
 
